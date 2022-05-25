@@ -61,6 +61,7 @@ pub enum InvoiceStatus {
     Paid,
     Confirmed,
     Completed,
+    Complete,
     Invalid,
 }
 
