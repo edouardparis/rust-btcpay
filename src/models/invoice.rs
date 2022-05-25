@@ -27,7 +27,7 @@ pub struct Invoice {
     pub low_fee_detected: Option<bool>,
     pub btc_paid: String,
     pub rate: f32,
-    pub exception_status: bool,
+    pub exception_status: String,
     pub payment_urls: Option<PaymentUrl>,
     pub refund_address_request_pending: Option<bool>,
     pub buyer_paid_btc_miner_fee: Option<String>,
